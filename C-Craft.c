@@ -1,7 +1,10 @@
 #include <stdio.h>
-char answerdl;
-int main()
 
+char answerdl;
+
+
+
+int main()
 {
     printf("-=Weclome to C-Craft made by:Maxxx#5509=-\n");
     printf("Do you wana download files yes or no?");
