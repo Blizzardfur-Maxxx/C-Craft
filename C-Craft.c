@@ -3,7 +3,7 @@ char answerdl;
 int main()
 
 {
-    printf("-=Weclome to C-Craft");
+    printf("-=Weclome to C-Craft made by:Maxxx#5509=-\n");
     printf("Do you wana download files yes or no?");
     scanf(" %c",&answerdl);
     if (answerdl == 'y')
