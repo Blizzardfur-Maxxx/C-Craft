@@ -4,7 +4,7 @@ int main()
 
 {
     printf("-=Weclome to C-Craft");
-    printf("Do you wana download files yes or no?:");
+    printf("Do you wana download files yes or no?");
     scanf(" %c",&answerdl);
     if (answerdl == 'y')
     {
