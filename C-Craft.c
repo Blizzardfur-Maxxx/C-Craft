@@ -1,20 +1,35 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
 
-char answerdl;
+char answer;
 
 int main()
 {
     printf("-=Weclome to C-Craft made by:Maxxx#5509=-\n");
-    printf("Do you wana download files yes or no?");
-    scanf(" %c",&answerdl);
-    if (answerdl == 'y')
+    printf("what do you want to do:\n");
+    printf("-----------------------\n");
+    printf("[r=run] [d=download files] [q=quit]\n");
+    printf("answer here: ");
+    scanf(" %c",&answer);
+    if (answer == 'd')
     {
-        printf("Donwloading files");
-
+        printf("Donwloading files.");
+        Sleep(1000);
+        printf(".");
+        Sleep(1000);
+        printf(".");
+        Sleep(1000);
+        printf(".");
+        system("cd lib && java -cp dllib.jar Main");
     }
-        if (answerdl == 'n')
+        if (answer == 'r')
+        printf("running game then");
     {
-        printf("placeholder");
+    }
+        if (answer == 'q')
+    {
+        return -1;
     }
 
 
