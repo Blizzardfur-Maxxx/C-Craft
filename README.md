@@ -1,3 +1,4 @@
 # C-Craft
-<h1>Minecraft a Launcher in C and java lol</h1>
-<h4>IM CRYING</h4>
+<h2>Minecraft a Launcher in C and java lol</h2>
+<h4>get gcc compiler and run build.bat lol</h4>
+
