@@ -15,16 +15,17 @@ int main()
     if (answer == 'd')
     {
         printf("Donwloading files.");
-        Sleep(1000);
+        Sleep(100);
         printf(".");
-        Sleep(1000);
+        Sleep(100);
         printf(".");
-        Sleep(1000);
+        Sleep(100);
         printf(".");
         system("cd lib && java -cp dllib.jar Main");
+        main();
     }
         if (answer == 'r')
-        printf("running game then");
+        system("java -Djava.library.path=lib\\native -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft -Dhttp.proxyHost=betacraft.uk");
     {
     }
         if (answer == 'q')

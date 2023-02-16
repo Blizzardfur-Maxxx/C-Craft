@@ -7,7 +7,7 @@ import java.net.URL;
 public class Main {
 
 	public static void main(String[] args) {
-		try (BufferedInputStream in = new BufferedInputStream(new URL("https://piston-data.mojang.com/v1/objects/3a799f179b6dcac5f3a46846d687ebbd95856984/client.jar").openStream());
+		try (BufferedInputStream in = new BufferedInputStream(new URL("https://piston-data.mojang.com/v1/objects/43db9b498cb67058d2e12d394e6507722e71bb45/client.jar").openStream());
 				  FileOutputStream fileOutputStream = new FileOutputStream("minecraft.jar")) {
 				    byte dataBuffer[] = new byte[1024];
 				    int bytesRead;
