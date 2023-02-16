@@ -2,8 +2,6 @@
 
 char answerdl;
 
-
-
 int main()
 {
     printf("-=Weclome to C-Craft made by:Maxxx#5509=-\n");
@@ -12,6 +10,7 @@ int main()
     if (answerdl == 'y')
     {
         printf("Donwloading files");
+
     }
         if (answerdl == 'n')
     {
