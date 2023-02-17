@@ -25,7 +25,7 @@ int main()
         main();
     }
         if (answer == 'r')
-        system("java -Djava.library.path=lib\\native -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft -Dhttp.proxyHost=betacraft.uk");
+        system("java -Djava.library.path=lib -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft -Dhttp.proxyHost=betacraft.uk");
     {
     }
         if (answer == 'q')
