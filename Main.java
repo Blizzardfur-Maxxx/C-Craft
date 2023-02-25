@@ -118,7 +118,7 @@ public class Main {
 																																	// TODO Auto-generated catch block
 																																}
 																																		    try (BufferedInputStream in11 = new BufferedInputStream(new URL("https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/OpenAL64.dll").openStream());
-																																					  FileOutputStream fileOutputStream11 = new FileOutputStream("OpenAL6.dll")) {
+																																					  FileOutputStream fileOutputStream11 = new FileOutputStream("OpenAL64.dll")) {
 																																					    byte dataBuffer11[] = new byte[1024];
 																																					    int bytesRead11;
 																																					    while ((bytesRead11 = in11.read(dataBuffer11, 0, 1024)) != -1) {

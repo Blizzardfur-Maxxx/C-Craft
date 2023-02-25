@@ -4,8 +4,11 @@
 
 char answer;
 
+
 int main()
 {
+    char name[50];
+    char command[100];
     printf("-=Weclome to C-Craft made by:Maxxx#5509=-\n");
     printf("what do you want to do:\n");
     printf("-----------------------\n");
@@ -25,7 +28,10 @@ int main()
         main();
     }
         if (answer == 'r')
-        system("java -Djava.library.path=lib -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft -Dhttp.proxyHost=betacraft.uk");
+        printf("what username do you want: ");
+        scanf("%s",&name);
+        sprintf(command, "java -Djava.library.path=lib -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft %s" , name);
+        system(command);
     {
     }
         if (answer == 'q')
