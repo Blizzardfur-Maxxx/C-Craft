@@ -9,8 +9,7 @@ char answer;
 int main()
 {
     char name[] = "";
-    char runstring[] = "";
-    char run[] = "java -Djava.library.path=lib -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft ";
+    char run[] = "java  -Djava.library.path=lib -Dhttp.proxyHost=betacraft.uk -Djava.util.Arrays.useLegacyMergeSort=true -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft ";
     printf("-=Weclome to C-Craft made by:Maxxx#5509=-\n");
     printf("what do you want to do:\n");
     printf("-----------------------\n");
@@ -31,7 +30,7 @@ int main()
     }
         if (answer == 'r')
         printf("what username do you want: ");
-        scanf("%s", &name);
+        scanf("%s", &name);        
         strcat(run,name);
         system(run);
     {
