@@ -25,7 +25,7 @@ int dlbeta(){
         Sleep(100);
         printf(".");
         Sleep(100);
-        printf(".");
+        printf(".\n");
         system("cd lib && java -cp dllib.jar Main");
 }
 
