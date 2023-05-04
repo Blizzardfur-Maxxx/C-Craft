@@ -77,6 +77,7 @@ int main()
             scanf("%s", &runargs);        
             strcat(runb,runargs);
             system(runb);
+            main();
         }
         if (answer2 == 'c')
         {
@@ -84,6 +85,7 @@ int main()
             scanf("%s", &runargs);        
             strcat(runc,runargs);
             system(runc);
+            main();
         }
     {
     }
