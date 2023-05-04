@@ -47,7 +47,7 @@ int main()
     char runb[] = "java  -Djava.library.path=lib -Dhttp.proxyHost=betacraft.uk -Djava.util.Arrays.useLegacyMergeSort=true -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar net.minecraft.client.Minecraft ";
     char runc[] = "java  -Djava.library.path=lib -Dhttp.proxyHost=betacraft.uk -Djava.util.Arrays.useLegacyMergeSort=true -Xmx1024M -cp lib\\lwjgl.jar;lib\\lwjgl_util.jar;lib\\jinput.jar;lib\\minecraft.jar com.mojang.minecraft.Start ";
     logo();
-    printf("-=Weclome to C-Craft made by:Maxxx#5509=-\n");
+    printf("-=Welcome to C-Craft made by:Maxxx#5509=-\n");
     printf("what do you want to do:\n");
     printf("-----------------------\n");
     printf("[r=run] [d=download files] [q=quit]\n");
