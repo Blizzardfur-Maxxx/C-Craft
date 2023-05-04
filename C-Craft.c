@@ -8,7 +8,7 @@ char answer2;
 char answer3;
 
 int logo(){
- printf("   _____       _____            __ _       \n ");
+  printf("   _____       _____            __ _       \n ");
   printf(" / ____|     / ____|          / _| |      \n ");
   printf("| |   ______| |     _ __ __ _| |_| |_     \n ");
   printf("| |  |______| |    | '__/ _` |  _| __|    \n ");
