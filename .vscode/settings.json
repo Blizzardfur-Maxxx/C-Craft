@@ -3,6 +3,7 @@
         "types.h": "c",
         "windows.h": "c",
         "winsock2.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "string.h": "c"
     }
 }
