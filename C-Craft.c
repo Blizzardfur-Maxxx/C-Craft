@@ -70,7 +70,7 @@ int main()
     }
     if (answer == 'r')
             printf("beta[b] or classic[c]?:");
-            scanf(" %c",&answer2);
+            scanf(" %c",&answer3);
         if (answer2 == 'b')
         {
             printf("enter username and mppass(with space between mpass optional): ");
